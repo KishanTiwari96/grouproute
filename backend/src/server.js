@@ -23,7 +23,7 @@ const CLIENT_URL = process.env.CLIENT_URL || 'http://localhost:5173';
 // CORS configuration (supports comma-separated URLs or wildcard)
 const configuredOrigins = process.env.CLIENT_URL ? process.env.CLIENT_URL.split(',').map(u => u.trim()) : [];
 const defaultOrigins = [
-  'http://localhost:5173', 
+  'http://localhost:5173',
   'http://127.0.0.1:5173',
   'http://localhost:5174',
   'http://127.0.0.1:5174'
@@ -145,7 +145,7 @@ const shutdown = () => {
     console.log('[Server] HTTP/Socket.IO server closed.');
     process.exit(0);
   });
-  
+
   // Force close after 10s
   setTimeout(() => {
     console.error('[Server] Could not close connections in time, forcefully shutting down');
