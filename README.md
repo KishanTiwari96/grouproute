@@ -1,5 +1,16 @@
 # GroupRoute — Real-Time Group Travel & Location Intelligence Platform
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel)](https://grouproute.vercel.app)
+[![Live Backend](https://img.shields.io/badge/Backend%20API-Render-46E3B7?style=for-the-badge&logo=render)](https://grouproute.onrender.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/KishanTiwari96/grouproute)
+[![Author](https://img.shields.io/badge/Author-Kishan%20Tiwari-blue?style=for-the-badge)](https://github.com/KishanTiwari96)
+
+> 🚀 **Live Demo:** [https://grouproute.vercel.app](https://grouproute.vercel.app)  
+> 🔌 **Live Backend API & Socket Server:** [https://grouproute.onrender.com](https://grouproute.onrender.com)  
+> 📦 **GitHub Repository:** [https://github.com/KishanTiwari96/grouproute](https://github.com/KishanTiwari96/grouproute)
+
+---
+
 GroupRoute is a production-grade full-stack platform for group road trips and convoy navigation. It transforms raw mobile GPS telemetry into real-time group travel intelligence:
 
 - 🚗 **Live Convoy Tracking**: Real-time multi-member location sharing on interactive Google Maps / Vector Map.
@@ -217,5 +228,12 @@ GroupRoute comes with a built-in multi-agent simulation engine on the **Delhi $\
 
 ---
 
-## 7. License
+## 7. Author & Contact
+- **Creator & Developer:** Kishan Tiwari
+- **Email:** [kishantiwari698591@gmail.com](mailto:kishantiwari698591@gmail.com)
+- **GitHub:** [@KishanTiwari96](https://github.com/KishanTiwari96)
+
+---
+
+## 8. License
 MIT License.
