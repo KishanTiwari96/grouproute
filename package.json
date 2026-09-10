@@ -1,0 +1,28 @@
+{
+  "name": "grouproute",
+  "version": "1.0.0",
+  "description": "Real-Time Group Travel & Location Intelligence Platform",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "npm --prefix frontend install && npm --prefix frontend run build && npm --prefix backend install",
+    "start": "node backend/src/server.js",
+    "test": "cd backend && npm test",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "group-travel",
+    "location-intelligence",
+    "google-maps",
+    "real-time",
+    "socketio",
+    "gps-tracking"
+  ],
+  "author": "Kishan Tiwari",
+  "license": "MIT"
+}

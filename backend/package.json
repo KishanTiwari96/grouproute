@@ -1,0 +1,43 @@
+{
+  "name": "grouproute-backend",
+  "version": "1.0.0",
+  "description": "Backend API and Real-Time Location Intelligence Engine for GroupRoute",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node tests/run-tests.js"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "src/*"
+    ],
+    "ext": "js,json",
+    "ignore": [
+      "node_modules",
+      "tests",
+      "data",
+      "logs"
+    ],
+    "delay": "1500"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "ioredis": "^5.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^7.6.0",
+    "pg": "^8.12.0",
+    "socket.io": "^4.7.5",
+    "uuid": "^9.0.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "socket.io-client": "^4.8.3"
+  },
+  "author": "Kishan Tiwari"
+}

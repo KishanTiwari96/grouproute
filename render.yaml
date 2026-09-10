@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: grouproute
+    runtime: node
+    plan: free
+    buildCommand: npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: USE_LOCAL_STORAGE_FALLBACK
+        value: "true"
+      - key: STOP_DETECTION_TIME_MS
+        value: "180000"
+      - key: SPLIT_DISTANCE_KM
+        value: "5.0"
+      - key: REJOIN_DISTANCE_KM
+        value: "2.0"
